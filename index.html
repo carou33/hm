@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>prxy — Network Gateway</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1 class="title">prxy</h1>
+        <p class="subtitle">Network Gateway — Scalable · Resilient · Obfuscated</p>
+      </header>
+
+      <section class="search-section">
+        <div class="search-wrap">
+          <input id="searchInput" class="search-input" type="search" placeholder="Search the project... (e.g. docs, infra, ip)" aria-label="Search" />
+          <button id="searchBtn" class="search-btn">Go</button>
+        </div>
+        <p class="hint">Try: "docs", "infra", "deploy", "ip"</p>
+        <div id="searchResult" class="search-result" aria-live="polite"></div>
+      </section>
+
+      <section class="onepage">
+        <h2>Project Snapshot</h2>
+        <p>
+          This repository is a skeleton for the prxy network gateway described in the prompt — a large-scale, modular network management system.
+          The structure and placeholder files match the blueprint so contributors can start filling in implementations.
+        </p>
+
+        <ul class="structure-list">
+          <li><strong>docs/</strong> — architecture & API docs</li>
+          <li><strong>infra/</strong> — terraform, kubernetes, cloud scripts</li>
+          <li><strong>src/</strong> — microservices (Node/Python/Go/Rust/C++)</li>
+          <li><strong>monitoring/</strong> — Prometheus, Grafana, alerts</li>
+          <li><strong>ci-cd/</strong> — pipelines (GitHub Actions, Jenkins, etc.)</li>
+        </ul>
+
+        <p class="note">One-page UI with black background and purple-accent search bar — minimal and focused.</p>
+      </section>
+
+      <footer class="footer">
+        <small>prxy — if you know, you know • © 2025</small>
+      </footer>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
