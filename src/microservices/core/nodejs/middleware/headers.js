@@ -1,0 +1,2 @@
+// headers placeholder
+module.exports = {};

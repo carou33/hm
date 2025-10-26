@@ -1,0 +1,3 @@
+---
+- name: network tasks placeholder
+  debug: msg="network role placeholder"
